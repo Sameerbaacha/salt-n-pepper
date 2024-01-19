@@ -1,0 +1,872 @@
+@font-face {
+    font-family: futurak;
+    src: url(font/futurak.ttf);
+}
+
+
+body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.header-nav {
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+
+
+
+.logo img {
+    width: 40%;
+    padding: 0px;
+}
+
+
+
+
+.right,
+.logo {
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+
+
+
+
+.right {
+    width: 30%;
+    vertical-align: bottom;
+}
+
+
+.right {
+    margin-bottom: 15px;
+
+}
+
+
+.menu>li {
+    color: white;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+
+
+
+.btn-1 {
+    background-color: black;
+    color: white;
+
+}
+
+.btn-1 {
+    padding: 12px 10px 12px 10px;
+    border-radius: 25px;
+    border-color: white;
+    display: inline-block;
+}
+
+
+
+
+
+.btn-2 {
+    background-color: red;
+    color: white;
+
+}
+
+.btn-2 {
+    padding: 12px 16px;
+    border-radius: 40px;
+    border-color: white;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+
+
+.btn-1,
+.btn-2 {
+    display: inline-block;
+}
+
+
+
+
+
+
+/*--marques  images*/
+
+.marquee-container {
+    width: 100%;
+    background-color: rgb(30, 28, 28);
+}
+
+
+
+
+
+
+
+/*welcome to salt n pepper* three white images*/
+
+
+.welcome {
+    background-color: black;
+    width: 100%;
+    height: 650px;
+
+}
+
+
+.Welcome-1 {
+    text-align: center;
+    color: white;
+}
+
+.Welcome-1 {
+    padding-top: 6%;
+    font-size: 250%;
+}
+
+.parag {
+    text-align: center;
+    color: wheat;
+    word-spacing: 4px;
+}
+
+
+.font {
+    font-family: "futurak";
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+.main-card {
+    width: 100%;
+}
+
+
+
+
+.card-logo img {
+    width: 250px;
+    height: 130px;
+    margin-top: 5%;
+    padding: 17px 14px;
+    background-color: white;
+    margin-right: 10%;
+    width: 70%;
+    height: 40%;
+    transition: width 2s;
+
+
+}
+
+.card-logo img:hover {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.card-btn button {
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 15px 45px;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+    margin-right: 10%;
+
+}
+
+
+.card-btn button:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+.card-express img {
+    width: 250px;
+    height: 130px;
+    margin-top: 5%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    width: 70%;
+    height: 40%;
+    transition: width 2s;
+}
+
+
+
+.card-express img:hover {
+    width: 100%;
+}
+
+
+
+
+
+
+
+.card-btn-ex button {
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 15px 45px;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+
+}
+
+
+.card-btn-ex button:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+.card-village img {
+    width: 250px;
+    height: 130px;
+    margin-top: 5%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    width: 70%;
+    height: 40%;
+    transition: width 2s;
+}
+
+
+.card-village img:hover {
+    width: 100%;
+}
+
+
+
+
+
+.card-btn-vg button {
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 15px 45px;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+}
+
+.card-btn-vg button:hover {
+    background-color: red;
+}
+
+
+.card-1 {
+    padding-left: 120px;
+    margin-left: 20px;
+
+}
+
+
+
+.card-2 {
+
+    padding-left: 85px;
+}
+
+.card-3 {
+    padding-left: 80px;
+}
+
+
+
+
+
+.card-1,
+.card-2,
+.card-3 {
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*franchise three white images*/
+
+
+.main-pepper {
+    width: 100%;
+    height: 3500px;
+
+    background-color: rgb(4, 16, 16);
+}
+
+
+.text-area {
+    margin-left: 10%;
+}
+
+
+
+.heading-rest h2 {
+    font-family: "futurak";
+    font-size: 350%;
+    text-align: center;
+    color: white;
+}
+
+.heading-rest h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 8px;
+    line-height: 0px;
+}
+
+
+.heading-rest p {
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+
+.text-area h2 {
+    text-transform: uppercase;
+    color: red;
+}
+
+
+.big {
+    font-family: "futurak";
+    color: white;
+    font-size: 300%;
+}
+
+
+.small {
+    color: white;
+    font-size: 200%;
+    word-spacing: 50%;
+
+}
+
+
+
+.adres {
+    color: white;
+    font-size: 100%;
+
+}
+
+
+button.butn {
+    border: 2px solid whitesmoke;
+    padding: 14px 25px;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: rgb(8, 20, 20);
+}
+
+
+button.butn:hover {
+    background-color: red;
+
+}
+
+
+
+
+.text-area,
+.isl {
+    display: inline-block;
+}
+
+
+.isl img {
+    margin-left: 15%;
+    border-radius: 10%;
+    width: 70%;
+    height: 70%;
+    transition: width 2s;
+}
+
+
+
+.isl img:hover {
+    width: 110%;
+}
+
+
+
+
+
+
+/*--Next div for Row 9 images franchise--*/
+
+
+.heading {
+    font-family: "futurak";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+
+.ep {
+    color: rgb(235, 236, 222);
+    font-size: 40px;
+    text-align: center;
+    line-height: 0%;
+}
+
+
+.main-head {
+    display: inline-block;
+
+}
+
+.package,
+.empo,
+.gujranwala {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+
+}
+
+
+
+
+.package h4 {
+    color: red;
+
+}
+
+.wheat {
+    color: wheat;
+    font-size: 170%;
+}
+
+.package-span {
+    color: white;
+    font-family: "futurak";
+    font-size: 200%;
+    letter-spacing: 2px;
+
+}
+
+.locat {
+    color: grey;
+    word-spacing: 4px;
+
+}
+
+.phn {
+    color: grey;
+
+}
+
+
+
+
+
+
+
+
+.empo h4 {
+    color: red;
+
+}
+
+.empo p {
+    color: white;
+    font-size: 200%;
+}
+
+.empo b {
+    color: white;
+    font-family: "futurak";
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+
+
+.gujranwala h4 {
+    color: red;
+
+}
+
+.gujranwala p {
+    color: white;
+    font-size: 200%;
+}
+
+.gujranwala b {
+    color: white;
+    font-family: "futurak";
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+/*one image div*/
+
+
+.main-div {
+    width: 100%;
+    height: 720px;
+    background-color: rgb(28, 65, 66);
+    padding-top: 5px;
+
+}
+
+
+.main-child p {
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    font-family: "futurak";
+}
+
+
+.main-child h1 {
+    font-size: 400%;
+    color: rgb(255, 255, 209);
+    text-align: center;
+    line-height: 0%;
+}
+
+
+.vill {
+
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    font-family: "futurak";
+
+}
+
+.main-child h2 {
+    color: red;
+    font-family: sans-serif;
+}
+
+
+.text-right {
+    margin-left: 3%;
+    vertical-align: 700%;
+    display: inline-block;
+
+}
+
+.text-right h2 {
+    color: red;
+    font-family: sans-serif;
+}
+
+
+.locat-t {
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: gainsboro;
+}
+
+.phn-t {
+    color: gainsboro;
+}
+
+.direct {
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: rgb(28, 65, 66);
+    font-size: 120%;
+    border-radius: 25px;
+    margin: 20px 0px 0px;
+    padding: 15px 12px;
+}
+
+.direct:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+/*coming soon project 9 images*/
+
+
+.main-coming {
+    width: 100%;
+    height: 1920px;
+    background-color: rgb(10, 10, 10);
+    padding-top: 5px;
+
+}
+
+.main-coming p {
+
+    font-family: "futurak";
+    color: antiquewhite;
+    font-size: 400%;
+    text-align: center;
+}
+
+
+.main-coming q {
+    color: white;
+    font-size: 300%;
+    font-family: sans-serif;
+}
+
+.main-coming span {
+    color: white;
+    font-size: 200%;
+
+
+}
+
+.main-coming q {
+    margin-left: 25%;
+}
+
+
+.white-img {
+    background-color: white;
+    width: 20%;
+    height: 290px;
+}
+
+
+
+
+.white-img>img {
+    padding-top: 12px;
+    margin-left: 40%;
+
+}
+
+
+.white-img small {
+    margin-left: 30%;
+    color: red;
+}
+
+
+.white-img p {
+    color: black;
+    font-size: 160%;
+    padding-left: 10px;
+}
+
+
+.white-img h2 {
+    color: black;
+    font-size: 140%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.white-img {
+    display: inline-block;
+    margin-right: 0%;
+    margin-left: 9%;
+}
+
+
+
+
+
+
+
+
+/*div for multiple images with marque*/
+
+
+
+.social b {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 39%;
+    font-size: 250%;
+    box-shadow: -1px 1px 22px 2px rgba(19, 31, 242, 0.75);
+    -webkit-box-shadow: -1px 1px 22px 2px rgba(19, 31, 242, 0.75);
+    -moz-box-shadow: -1px 1px 22px 2px rgba(19, 31, 242, 0.75);
+
+}
+
+
+
+
+.mrq-1,
+.mrq-2,
+.mrq-3,
+.mrq-4,
+.mrq-5 {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+/*footer data*/
+
+
+#main-footer {
+    width: 100%;
+    height: 624px;
+    background-image: url(https://images.hdqwalls.com/download/cubes-dark-minimalism-h8-1336x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4 {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+
+.footer-1 p {
+    font-size: 110%;
+    color: rgb(223, 215, 215);
+    padding-left: 50px;
+
+}
+
+
+.footer-1 img {
+    padding-left: 50px;
+}
+
+
+
+.height {
+    line-height: 500%;
+}
+
+
+
+
+.footer-2 h2 {
+    color: rgb(246, 255, 148);
+}
+
+.footer-2 p {
+    color: rgb(225, 223, 223);
+}
+
+
+
+
+
+.footer-3 h2 {
+    color: rgb(246, 255, 148);
+}
+
+.footer-3 p,
+address {
+    color: rgb(224, 224, 224)
+}
+
+
+.footer-4 h2 {
+    color: rgb(246, 255, 148);
+}
+
+
+
+.footer-1 {
+
+    padding-top: 5%;
+
+}
+
+
+
+
+
+.four {
+    color: rgb(225, 223, 223);
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.com {
+    color: rgb(225, 223, 223);
+    display: inline-block;
+    margin-left: 45%;
+
+}
